@@ -28,3 +28,7 @@ npm install @letsdevelopment/nestjs-router
 # Install router
 yarn add @letsdevelopment/nestjs-router
 ```
+
+## License
+
+Nest is [MIT licensed](LICENSE).
