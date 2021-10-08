@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/LetsDevelopment/nestjs-router/compare/v1.0.6...v1.0.7) (2021-10-08)
+
+
+### Bug Fixes
+
+* auto ci ([dd679e7](https://github.com/LetsDevelopment/nestjs-router/commit/dd679e7e659c67a0720656e3a2f1962571533e59))
+
 ## [1.0.6](https://github.com/LetsDevelopment/nestjs-router/compare/v1.0.5...v1.0.6) (2021-10-08)
 
 
