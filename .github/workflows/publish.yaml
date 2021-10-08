@@ -25,13 +25,6 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-dep-cache-${{ hashFiles('**/package-lock.json') }}
             ${{ runner.OS }}-npm-dep-cache
-      - name: Create .npmrc file
-        shell: bash
-        run: |
-          cat <<EOF >> .npmrc
-          @letsdevelopment:registry=https://npm.pkg.github.com/
-          //npm.pkg.github.com/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}
-          EOF
       - name: Install dependences
         run: |
           npm i -g yarn@1.22.10
