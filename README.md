@@ -11,6 +11,14 @@
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/LetsDevelopment/nestjs-router?style=for-the-badge">
 </p>
 
-```shell
+## Getting started
+### Npm
+```sh
+# Install router
 npm install @letsdevelopment/nestjs-router
+```
+### Yarn
+```sh
+# Install router
+yarn add @letsdevelopment/nestjs-router
 ```
