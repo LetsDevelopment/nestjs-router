@@ -18,6 +18,9 @@
         "path": "^0.12.7"
     },
     "devDependencies": {
+        "@commitlint/cli": "^12.1.4",
+        "@commitlint/config-conventional": "^12.1.4",
+        "@commitlint/types": "^13.2.0",
         "@nestjs/common": "^8.0.11",
         "@semantic-release/changelog": "^5.0.1",
         "@semantic-release/commit-analyzer": "^8.0.1",
