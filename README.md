@@ -1,7 +1,7 @@
 <div align="center">
     <img alt="Logo" width=200 src="https://www.svgrepo.com/show/126491/traffic-light.svg">
     <h1 align="center" style="display: flex; flex-direction: column">
-        Nest Router
+        Nestjs Router
     </h1>
 </div>
 <p align="center">
