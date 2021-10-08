@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/LetsDevelopment/nestjs-router/compare/v1.0.3...v1.0.4) (2021-10-08)
+
+
+### Bug Fixes
+
+* remove npmrc ([f05568c](https://github.com/LetsDevelopment/nestjs-router/commit/f05568c96d0ed52305e9da5be38bf3d7057ed6ac))
+
 ## [1.0.3](https://github.com/LetsDevelopment/nestjs-router/compare/v1.0.2...v1.0.3) (2021-10-08)
 
 
