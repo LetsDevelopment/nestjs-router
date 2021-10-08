@@ -4,6 +4,7 @@ import { PATH_METADATA, HOST_METADATA, SCOPE_OPTIONS_METADATA, VERSION_METADATA 
 import { isUndefined } from '@nestjs/common/utils/shared.utils'
 import { locate } from 'func-loc'
 import * as path from 'path'
+import 'reflect-metadata'
 
 interface FunctionLocation {
     column: number

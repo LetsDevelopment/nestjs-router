@@ -105,3 +105,6 @@ dist
 
 # Npm
 .npmrc
+
+# Folder build
+/lib
