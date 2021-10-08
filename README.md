@@ -1,7 +1,7 @@
 <div align="center">
     <img alt="Logo" width=200 src="https://www.svgrepo.com/show/126491/traffic-light.svg">
     <h1 align="center" style="display: flex; flex-direction: column">
-        Nest Router
+        Nestjs Router
     </h1>
 </div>
 <p align="center">
@@ -13,6 +13,9 @@
 <p align="center">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/LetsDevelopment/nestjs-router?style=for-the-badge">
 </p>
+
+- 📦 Share configuration via `npm`
+- 🤖 Tap into `conventional-changelog`
 
 ## Contents
 - [Getting started](#getting-started)
@@ -28,3 +31,7 @@ npm install @letsdevelopment/nestjs-router
 # Install router
 yarn add @letsdevelopment/nestjs-router
 ```
+
+## License
+
+Nest is [MIT licensed](LICENSE).
