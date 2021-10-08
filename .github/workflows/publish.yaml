@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: '16'
           registry-url: 'https://registry.npmjs.org'
+          always-auth: true
       - name: Cache NPM dependencies
         uses: actions/cache@v2
         with:
@@ -30,7 +31,7 @@ jobs:
           npm i -g yarn@1.22.10
           yarn install
           yarn build
-          yarn publish --access public
+          yarn publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
           CI: true
