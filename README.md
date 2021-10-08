@@ -1,4 +1,5 @@
 <h1 align="center">
+    <img alt="Logo" src="https://www.svgrepo.com/show/126491/traffic-light.svg" >
     NestJS Router
 </h1>
 <p align="center">
