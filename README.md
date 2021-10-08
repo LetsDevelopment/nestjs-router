@@ -14,6 +14,9 @@
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/LetsDevelopment/nestjs-router?style=for-the-badge">
 </p>
 
+- 📦 Share configuration via `npm`
+- 🤖 Tap into `conventional-changelog`
+
 ## Contents
 - [Getting started](#getting-started)
 
