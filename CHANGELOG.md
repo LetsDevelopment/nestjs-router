@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/LetsDevelopment/nestjs-router/compare/v1.0.5...v1.0.6) (2021-10-08)
+
+
+### Bug Fixes
+
+* always auth ([bc80a56](https://github.com/LetsDevelopment/nestjs-router/commit/bc80a569c68f617c3bc52a4b756c549bcae93a96))
+
 ## [1.0.5](https://github.com/LetsDevelopment/nestjs-router/compare/v1.0.4...v1.0.5) (2021-10-08)
 
 
