@@ -1,7 +1,9 @@
-<h1 align="center">
-    <img alt="Logo" src="https://www.svgrepo.com/show/126491/traffic-light.svg" >
-    NestJS Router
-</h1>
+<div align="center">
+    <img alt="Logo" width=200 src="https://www.svgrepo.com/show/126491/traffic-light.svg">
+    <h1 align="center" style="display: flex; flex-direction: column">
+        Nest Router
+    </h1>
+</div>
 <p align="center">
     <a href="https://github.com/LetsDevelopment/nestjs-router/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/LetsDevelopment/nestjs-router?style=for-the-badge&logo=appveyor"></a>
     <a href="https://github.com/LetsDevelopment/nestjs-router/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/LetsDevelopment/nestjs-router?style=for-the-badge&logo=appveyor"></a>
