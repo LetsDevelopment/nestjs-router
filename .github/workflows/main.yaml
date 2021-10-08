@@ -32,5 +32,7 @@ jobs:
           yarn build
       - name: Create a semantic release
         env:
+          GH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
           CI: true
         run: npx semantic-release
