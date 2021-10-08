@@ -17,7 +17,7 @@
 ## Contents
 - [Getting started](#getting-started)
 
-## Getting started
+## Installation
 ### Npm
 ```sh
 # Install router
