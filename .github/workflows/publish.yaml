@@ -1,0 +1,35 @@
+#This workflow will install dependencies and publish the package
+
+name: Publish on release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '16'
+          registry-url: https://npm.pkg.github.com/
+      - name: Cache NPM dependencies
+        uses: actions/cache@v2
+        with:
+          path: ./node_modules
+          key: ${{ runner.OS }}-npm-dep-cache-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-npm-dep-cache-${{ hashFiles('**/package-lock.json') }}
+            ${{ runner.OS }}-npm-dep-cache
+      - name: Install dependences
+        run: |
+          npm i -g yarn@1.22.10
+          yarn install
+          yarn build
+          yarn publish
+        env:
+          CI: true
