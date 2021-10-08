@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/LetsDevelopment/nestjs-router/compare/v1.0.4...v1.0.5) (2021-10-08)
+
+
+### Bug Fixes
+
+* publish pipeline ([bf2ab07](https://github.com/LetsDevelopment/nestjs-router/commit/bf2ab071ee7c070b2187a6f49663876fcf784328))
+
 ## [1.0.4](https://github.com/LetsDevelopment/nestjs-router/compare/v1.0.3...v1.0.4) (2021-10-08)
 
 
