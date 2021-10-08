@@ -1,6 +1,6 @@
 {
     "name": "@letsdevelopment/nestjs-router",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "lib/index.js",
     "repository": "git@github.com:LetsDevelopment/nestjs-router.git",
     "author": "Lets Comunicação",
