@@ -37,7 +37,7 @@ jobs:
           npm i -g yarn@1.22.10
           yarn install
           yarn build
-          yarn publish
+          yarn publish --access public
         env:
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
           CI: true
