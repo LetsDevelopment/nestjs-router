@@ -10,3 +10,7 @@
 <p align="center">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/LetsDevelopment/nestjs-router?style=for-the-badge">
 </p>
+
+```shell
+npm install @letsdevelopment/nestjs-router
+```
