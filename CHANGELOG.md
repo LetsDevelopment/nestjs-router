@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/LetsDevelopment/nestjs-router/compare/v1.0.0...v1.0.1) (2021-10-08)
+
+
+### Bug Fixes
+
+* auth token ([daa04df](https://github.com/LetsDevelopment/nestjs-router/commit/daa04df39c8d1522fa99acd45a3bbed7a0b28c77))
+
 # 1.0.0 (2021-10-08)
 
 
